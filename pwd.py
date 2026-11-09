@@ -11,4 +11,7 @@ for char in password:
     if char >= "a" and char <="z":
         lower = True
     if char >="0" and char <=9:
-        number = true
+        number = True
+valid = True
+if len(password)<8: 
+    print("password must have at least 8 characters")
