@@ -27,4 +27,5 @@ if number = False:
     valid = False
 if valid == True:
     print("Password is valid!")
-
+else: 
+  print("invalid password.")
