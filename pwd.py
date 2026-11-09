@@ -15,3 +15,6 @@ for char in password:
 valid = True
 if len(password)<8: 
     print("password must have at least 8 characters")
+if upper == False:
+    print("Pasword must contain an uppercase letter")
+    valid = False
