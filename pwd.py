@@ -22,3 +22,6 @@ if upper == False:
 if lower == False:
     print("password must contain a lowercase letter")
     valid = False
+if number = False:
+    print("pasword must contain a number")
+    valid = False
